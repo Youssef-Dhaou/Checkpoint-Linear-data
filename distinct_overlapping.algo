@@ -132,7 +132,7 @@ BEGIN
         END_FOR    
     END_FOR
 
-    write("The sum of two distinct sets of elements: ", sum)
+    write("The sum of two overlapping sets of elements: ", sum)
 END
 
 //// sum of overlapping elements using hash-table
@@ -173,5 +173,5 @@ BEGIN
                 END_IF
         END_FOR
 
-        write("The sum of two distinct sets of elements: ", sum)
+        write("The sum of two overlapping sets of elements: ", sum)
 END
